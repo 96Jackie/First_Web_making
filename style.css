@@ -1,4 +1,4 @@
-/* 여기부터 책의 코드를 작성해주세요 */
+
 
 /*기본 스타일 시트 초기화 */
 
@@ -16,4 +16,19 @@ a,a:link,a:visited{
 li{
     list-style:none;
 }
+
+.container{
+    width:1140px;
+    margin:0 auto;
+}
+
+header{
+    position: absolute;
+    color:black;
+    top:0;
+    z-index:1;
+    width:100%;
+    padding:1rem;
+}
+
 
